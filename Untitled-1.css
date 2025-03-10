@@ -3,44 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: url('https://www.w3schools.com/w3images/beach.jpg') no-repeat center center fixed; /* خلفية الشاطئ */
+    background-size: cover; /* لضمان تغطية الصورة لكل الشاشة */
     color: #333;
 }
 
-/* رأس الصفحة */
-header {
-    background-color: #008CBA;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo h1 {
-    margin: 0;
-    font-size: 30px;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-
-/* قسم الصفحة الرئيسية */
+/* خلفية قسم الصفحة الرئيسية */
 .hero {
-    background: url('beach-background.jpg') no-repeat center center/cover;
+    background: url('https://www.w3schools.com/w3images/ocean.jpg') no-repeat center center/cover;
     color: white;
     height: 60vh;
     display: flex;
@@ -71,10 +41,13 @@ header nav ul li a {
     background-color: #e07b00;
 }
 
-/* قسم الرحلات */
+/* خلفية قسم الرحلات */
 .trips {
     text-align: center;
     padding: 40px 20px;
+    background: url('https://www.w3schools.com/w3images/sunset.jpg') no-repeat center center/cover;
+    background-size: cover;
+    color: white;
 }
 
 .trips h2 {
@@ -82,11 +55,12 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
+/* تخصيص عناصر الرحلات */
 .trip-card {
     display: inline-block;
     width: 30%;
     margin: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8); /* تأثير شفاف لتمييز النص */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -131,7 +105,7 @@ header nav ul li a {
     background-color: #005f73;
 }
 
-/* قسم اتصل بنا */
+/* خلفية قسم اتصل بنا */
 .contact {
     background-color: #f9f9f9;
     padding: 40px 20px;
